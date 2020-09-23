@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Appium" verbose="10" parallel="instances" thread-count="1" data-provider-thread-count="3">
+    <test name="suites.tests" >
+        <classes>
+            <class name="ios.PickerView"/>
+            <class name="ios.Stacks"/>
+            <class name="ios.DatePicker"/>
+            <class name="ios.Steppers"/>
+<!--            <class name="ios.WKWebView"/>-->
+        </classes>
+    </test>
+</suite>
