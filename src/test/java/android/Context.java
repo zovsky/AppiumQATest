@@ -7,6 +7,13 @@ import org.testng.annotations.Test;
 
 public class Context extends Base {
 
+    /*
+    From the main view, navigate through Views -> Expandable Lists -> Custom Adapter
+    Perform a long tap on People Names row
+    Select Sample action in the Sample menu
+    The test success if: a Toast appears with some text
+     */
+
     @Test
     public void checkToastAppearsWithText() {
 
