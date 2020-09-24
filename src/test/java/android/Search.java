@@ -7,6 +7,12 @@ import org.testng.annotations.Test;
 
 public class Search extends Base {
 
+/*Search
+• From the main view, navigate through Views -> Search View -> Filter
+• Write ‘Colby' as text filter
+• The test success if: the first result is Colby
+*/
+
     @Test
     public void checkWifiSettingsText() {
 

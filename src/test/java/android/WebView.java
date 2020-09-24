@@ -6,6 +6,12 @@ import java.util.Set;
 
 public class WebView extends Base {
 
+/*WebView
+• From the main view, navigate through Views -> WebView
+• Tap on the “I am a link” link
+• The test success if: a web with the text “I am one other page content” appears
+*/
+
     @Test
     public void checkHTMLContainsText() {
 

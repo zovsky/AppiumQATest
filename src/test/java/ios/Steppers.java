@@ -6,6 +6,14 @@ import org.testng.annotations.Test;
 
 public class Steppers extends Base{
 
+/*Steppers
+• From the main view, navigate to Steppers
+• Tap on + on Default section 7 times
+• Tap on + on Tinted section 4 times
+• Tap on + on Custom section 3 times
+• The test success if: the counters at the right of each section are 7, 4 and 3
+*/
+
     @Test
     public void checkSteppersCounters() {
         tapOnElement("Steppers");

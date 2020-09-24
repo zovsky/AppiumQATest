@@ -9,6 +9,13 @@ import org.testng.annotations.Test;
 
 public class WifiPreferences extends Base {
 
+/*WiFi preferences
+• From the main view, navigate through Preferences -> Preference dependencies
+• Turn ON WiFi option. Select WiFi Settings and write any text and click OK to close the dialog
+• The test success if: the WiFi option is checked and if Select WiFi Settings is tapped, the
+dialog contains the text that was introduced
+*/
+
     @Test
     public void checkWifiSettingsText() {
 

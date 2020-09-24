@@ -5,6 +5,14 @@ import org.testng.annotations.Test;
 
 public class Stacks extends Base{
 
+/*Stacks
+• From the main view, navigate through Views -> Stack Views
+• Tap on the + button at the right of Detail
+• Tap on the + button at the right of Add/remove views
+• The test success if: Further Detail appeared in the Showing/hiding views section, and a color
+square appeared in the Add/remove views section
+*/
+
     @Test
     public void checkStackViewsAdded() {
         tapOnElement("Stack Views");

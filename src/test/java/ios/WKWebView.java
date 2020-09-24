@@ -6,6 +6,12 @@ import java.util.Set;
 
 public class WKWebView extends Base{
 
+/*WKWebView
+• From the main view, navigate through Views -> Web View
+• Obtain the text shown inside the web view
+• The test success if: the text of the html content contains the text “This is HTML”
+*/
+
     @Test
     public void checkHTMLContainsText() {
         swipeUpHalfScreen();
@@ -18,9 +24,6 @@ public class WKWebView extends Base{
 
         Set contextNames = driver.getContextHandles();
         System.out.println(contextNames.size());
-        //driver.context((String) contextNames.toArray()[1]);
-
-        System.out.println(driver.getPageSource());
 
     }
 

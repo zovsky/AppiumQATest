@@ -8,6 +8,12 @@ import org.testng.annotations.Test;
 
 public class DragNDrop extends Base {
 
+/*Drag and Drop
+• From the main view, navigate through Views -> Drag and Drop
+• Drag one circle into a different circle. For example, the top left circle to the top right circle
+• The test success if: a text appears at the bottom saying “Dropped!”
+*/
+
     @Test
     public void checkTheDropExclamationMark() {
 

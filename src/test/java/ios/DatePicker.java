@@ -7,6 +7,12 @@ import org.testng.annotations.Test;
 
 public class DatePicker extends Base{
 
+/*Date picker
+• From the main view, navigate to Date Picker
+• Change the value of the day, hour and minute to match a date of your choice
+• The test success if: the label at the bottom of the view matches the selected date
+*/
+
     @Test
     public void checkDateSetCorrectly() {
         tapOnElement("Date Picker");
